@@ -1,0 +1,14 @@
+.slide{
+    background-image: url("../resources/asset/img/imagen-fondo3.jpg");
+    height:40vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.linea {
+    border-right: 4px solid grey;
+    margin: 15px auto 0 auto;
+}
+#img{
+    height: 156px;
+}

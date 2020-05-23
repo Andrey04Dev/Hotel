@@ -3,46 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="resources/css/styles.css">
+    <title>Hotel</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <header>
-        <img class="img-fluid" src="" alt="Img-header">
-    </header>
-    <div class="container">
-        <div class="row">
-          <div class="col-4" style="background-color: yellow;">
-            One of three columns
+  <header class="">
+    <section class=" slide d-flex justify-content-center align-items-center">
+      <h6 class="display-4 text-warning">Hotel Carmesi</h6>
+    </section>
+    <nav class="navbar position-relative sticky-top navbar-expand navbar-dark bg-dark ">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Cuartos</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Servicios</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Contactanos</a></li>
+      </ul>
+      <ul class=" navbar-nav ml-auto">
+        <li class="nav-item "><a href="#" class="nav-link">Registrarse</a></li>
+        <li class="nav-item "><a href="#" class="nav-link">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="col-12">
+      <h1 class="dislpay-2 text-center">Bienvenidos</h1>
+      <div id="bienvenida" class="jumbotron"></div>
+    </div>
+  </div>
+  <div class="container px-5">
+    <h1 class="display-5 text-center">Servicios</h1>
+    <div class="row">
+      <div class="jumbotron">
+        <div class="card-deck d-flex justify-content-center align-items-center mx-4">
+          <div class="card">
+            <img src="resources/asset/img/tranfer-airport.jpg" alt="" class="card-img">
+            <h5 class="my-3 text-center">Transporte</h5>
           </div>
-          <div class="col-4" style="background-color: yellow;">
-            One of three columns
+          <div class="card">
+            <img src="resources/asset/img/aparcamiento.jpg" alt="" class="card-img">
+            <h5 class="my-3 text-center">Aparcamiento</h5>
           </div>
-          <div class="col-4" style="background-color: yellow;" >
-            One of three columns
+          <div class="card">
+            <img id="img" src="resources/asset/img/torus.jpg" alt="" class="card-img">
+            <h5 class="my-3 text-center">Tours</h5>
           </div>
         </div>
       </div>
-      <div class="container-fluid">
-          <table class="table">
-              <thead class="">
-                  <tr>
-                    <th scope="col">Nombre</th>
-                    <th scope="col">Edad</th>
-                  </tr>
-              </thead>
-              <tbody>
-                    <tr scope="row">
-                        <td>Andrey</td>
-                        <td>23</td>
-                    </tr>
-                    <tr scope="row">
-                        <td>Andrey</td>
-                        <td>23</td>
-                    </tr>
-              </tbody>
-          </table>
+    </div>
+  </div>
+  <footer class="bg-dark mt-5">
+    <div class="container-fluid text-white text-center mx-auto">
+      <div class="row">
+        <div class="col-3 linea">Ubicación</div>
+        <div class="col-3 linea">Servicios</div>
+        <div class="col-3 linea">Contactanos</div>
+        <div class="col-3 ">Redes Sociales</div>
       </div>
+    </div>
+    <div class="text-center pb-3"><hr><span class="text-muted">@Code I hope that you enjoyed your rest.</span></div>
+  </footer>
     
 </body>
 <script src="resources/js/bundle.js"></script>
